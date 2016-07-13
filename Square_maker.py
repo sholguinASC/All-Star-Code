@@ -1,10 +1,9 @@
 from Myro import *
 init("sim")
 length = int(raw_input("How big do you want the square? "))
-forward(1,length)
-turnBy(90,"deg")
-forward(1,length)
-turnBy(90,"deg")
-forward(1,length)
-turnBy(90,"deg")
+penDown()
+for i in range(3):
+  forward(1,length)
+  turnBy(90,"deg")
+  
 forward(1,length)

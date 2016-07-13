@@ -1,5 +1,8 @@
 from Myro import *
 init("sim")
+sim = Simulation("Empty Room",700,700, makeColor("green"))
+sim.setup()
+makeRobot("SimScribbler",sim)
 length = int(raw_input("How big do you want the square? "))
 penDown()
 for i in range(3):

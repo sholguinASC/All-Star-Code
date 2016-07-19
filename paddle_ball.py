@@ -3,7 +3,7 @@ from time import sleep
 
 x = 350 #randint(20,670)
 y = 350 #randint(20,670)
-direction1 = randint(1,50)
+direction1 = randint(1,5)
 direction2 = randint(1,5)
 speed = 1
 
@@ -28,11 +28,13 @@ def draw():
     #rotateX(-1.0)
     noStroke()
     fill(31,190,222)
-    ellipse(x,y,50,50)
+    ellipse(x,y,25,25)
     strokeWeight(4)
     
     
-    rect(mouseX-70, 620, 140, 15)
-    if x < mouseX - 70 and x < mouseX + 70:
+    rect(mouseX -70, 620, 140, 15)
+    if (x > mouseX - 70 and x < mouseX + 70 ):
         if y > 620 and y < 645:
             direction2 = direction2 * -1
+        
+        

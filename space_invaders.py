@@ -1,19 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @sholguinASC
- Watch 1
-  Star 0
-  Fork 0 atahaASC/python
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs
-Branch: master Find file Copy pathpython/spaceinvaders/spaceinvaders.pyde
-a8c45a3  a minute ago
-@atahaASC atahaASC SPACE2
-1 contributor
-RawBlameHistory     164 lines (141 sloc)  3.59 KB
 from random import randint, choice
 from time import sleep
 
@@ -178,5 +162,3 @@ def keyPressed():
             if shootY <= 0:
                 shootX = playerX
                 shootY = 400
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
